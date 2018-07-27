@@ -3,11 +3,12 @@
 // @name           IITC plugin: Portal Submission helper
 // @author         SpawW (based on Vib S17 plugin)
 // @category       Layer
-// @version        0.0.1
-// @namespace      https://github.com/vibrunazo/l17cells
+// @version        0.0.1.20180727.1110
+// @namespace      https://raw.githubusercontent.com/SpawW/s2-opr
 // @updateURL      https://raw.githubusercontent.com/SpawW/s2-opr/master/s2-opr.meta.js
 // @downloadURL    https://raw.githubusercontent.com/SpawW/s2-opr/master/s2-opr.js
-// @description    IITC: Shows cells on the map for help submission planing
+// @description    [iitc-2018-07-27-111000] IITC: Shows cells on the map for help submission planing
+// @description    [iitc-2017-01-08-021732] Use the portal fill color to denote high level portals: Purple L8, Red L7, Orange L6
 // @include        https://*.ingress.com/intel*
 // @include        http://*.ingress.com/intel*
 // @match          https://*.ingress.com/intel*
@@ -18,6 +19,7 @@
 // @match          http://*.ingress.com/mission/*
 // @grant          none
 // ==/UserScript==
+
 
 // This plugin is a simple fork of the Regions plugin by Jonatkins And vib
 //
