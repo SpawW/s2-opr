@@ -5,8 +5,8 @@
 // @category       Layer
 // @version        0.0.1
 // @namespace      https://github.com/vibrunazo/l17cells
-// upd at eURL      https://ra w.githubusercontent.com/vibrunazo/l17cells/master/l17cells.meta.js
-// downlo adURL    https://raw.githubusercontent.com/vibrunazo/l17cells/master/l17cells.user.js
+// @updateURL      https://raw.githubusercontent.com/SpawW/s2-opr/master/s2-opr.meta.js
+// @downloadURL    https://raw.githubusercontent.com/SpawW/s2-opr/master/s2-opr.js
 // @description    IITC: Shows cells on the map for help submission planing
 // @include        https://*.ingress.com/intel*
 // @include        http://*.ingress.com/intel*
