@@ -3,7 +3,7 @@
 // @name           IITC plugin: S2-OPR Cells for OPR submission plan
 // @author         spaww
 // @category       Layer
-// @version        0.2.1
+// @version        0.2.2
 // @namespace      https://github.com/SpawW/s2-opr
 // @updateURL      https://raw.githubusercontent.com/SpawW/s2-opr/master/s2-opr.meta.js
 // @downloadURL    https://raw.githubusercontent.com/SpawW/s2-opr/master/s2-opr.user.js
@@ -30,7 +30,7 @@ function wrapper(plugin_info)
   //PLUGIN AUTHORS: writing a plugin outside of the IITC build environment? if so, delete these lines!!
   //(leaving them in place might break the 'About IITC' page or break update checks)
   plugin_info.buildName = 'opr-s2-cells';
-  plugin_info.dateTimeVersion = '20180803.144400';
+  plugin_info.dateTimeVersion = '20180803.150300';
   plugin_info.pluginId = 'opr-s2-cells';
   //END PLUGIN AUTHORS NOTE
 
@@ -90,8 +90,8 @@ function wrapper(plugin_info)
         html: dialogHtml,
         width:'auto',
         buttons:{
-          'Reset to Defaults': function() {
-                window.plugin.showcells.storage = { lightCell: 17, darkCell: 14, lightColor: '#f5fffa', darkColor: '#3cb371'};
+          'Defaults': function() {
+                window.plugin.showcells.storage = { lightCell: 2, darkCell: 2, lightColor: '#f5fffa', darkColor: '#3cb371'};
                 window.plugin.showcells.saveStorage();
                 window.plugin.showcells.update();
                 return;
@@ -114,7 +114,7 @@ function wrapper(plugin_info)
               window.plugin.showcells.update();
               return;
           },
-          'Save': function() {
+          'Custom': function() {
                 var darkCell = parseInt($("#dark-cell").val(), 10);
                 var lightCell = parseInt($("#light-cell").val(), 10);
                 var darkColor = $("#dark-color").val();
@@ -172,10 +172,10 @@ var customControl =  L.Control.extend({
   }
 });
 
-      map.addControl(new customControl());
+    map.addControl(new customControl());
 
     // Add a link to the Toolbox to change S2 Level instead of a button
-    $('#toolbox').append(' <a onclick="window.plugin.showcells.setCellLevel()" title="Change the level of S2 Cells displayed">Change S2 Level</a>');
+    //$('#toolbox').append(' <a onclick="window.plugin.showcells.setCellLevel()" title="Change the level of S2 Cells displayed">Change S2 Level</a>');
 
     /// S2 Geometry functions
     // the regional scoreboard is based on a level 6 S2 Cell
