@@ -3,7 +3,7 @@
 // @name           IITC plugin: S2-OPR Cells for OPR submission plan
 // @author         spaww
 // @category       Layer
-// @version        0.2.0
+// @version        0.2.1
 // @namespace      https://github.com/SpawW/s2-opr
 // @updateURL      https://raw.githubusercontent.com/SpawW/s2-opr/master/s2-opr.meta.js
 // @downloadURL    https://raw.githubusercontent.com/SpawW/s2-opr/master/s2-opr.user.js
@@ -30,7 +30,7 @@ function wrapper(plugin_info)
   //PLUGIN AUTHORS: writing a plugin outside of the IITC build environment? if so, delete these lines!!
   //(leaving them in place might break the 'About IITC' page or break update checks)
   plugin_info.buildName = 'opr-s2-cells';
-  plugin_info.dateTimeVersion = '20180803.143000';
+  plugin_info.dateTimeVersion = '20180803.144400';
   plugin_info.pluginId = 'opr-s2-cells';
   //END PLUGIN AUTHORS NOTE
 
@@ -159,9 +159,9 @@ var customControl =  L.Control.extend({
     container.style.backgroundColor = 'white';
     container.style.backgroundImage = " url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAA+hJREFUWIXNll1MU2cYx3+HnnMqLYIz5UMotXSlW0GJ0WQz2wWSfZC6GS9IDEGzJd4TdmtMvHRc6pUxJgMy1GsvmHFuM1yIBjBemBHkG6FFYRNW+kV72ncXxE7pOacrkGz/5Ny8z/P8///3Pe/HA/8xpMKyi4uxBwKUnD6N2tCA4vEAsPH7GNrsDJE7d4jevYuIx3fbp8S+zk48Cwv4hDD9PAsL7OvsBOlfTS5/kux0UvVjP7YTzQV5jg8OsnTuHNri4vYNyDU1OB88QK2vL0j8DZKTkyy2tKAFg4UbkBQF1+PHWI8e3Zb4G8QfDrHYcgKRSumFLYaF+y9epLSjY0fiAIqrlsz6OomhIb2w/goUlZTgnp5BrijfsQGA9MoKsx4PmUgkR0q3YG97e35xIUivrpFZW8trwFJezt72dr2QvgH716dMCbU/X7N09iwzB6qYrqri5fnziFjMtMZ+SpdT1k1WDx0yJBIZwatvvyE6MJAdC/f0IDY2OHDzpmGdVZ8zdw9IikJ9MmlIlAqGmHXW6MY8wSBydbWBc8Gk1br1NOj/AjOY/XORSBRKl2tAaBqpRcOLA6v/Q6xNTbnjTU3IB92GdVoohNC0/AYQguT4uCERRUVU9fWh+v3ZIdXvp7K3D8livKLJ8XEQYuuw/iaM//Yr9s8/MySzHjnCwadPSQwPIwQUf/wRktVqbBre2bRvQf8iUtxu3JOTSLK+wUKRjkSZ/8CHFgptDekvWWpujnBv766IA4Rv3NATB7PHqKi0FPezZ8gu147EtRcvmDt8mEw4rCtjWJgJhwm1tZFeXd22eHp1lVBbm5G4uQGAxOgowdZWo+UzhRYKEWxtJTE6apZm/By/TbR++zaW8orN85+v1RKCcH8/S2fOkHz+vCDTeaE2NlJ+5Qr10WhOL+gNh3F8343a2Li7onqo/KEnx0DF1avboSr8LbA4HMR+uZ8zHr13D4vDUShd/q5Ystko7ejA9sWXFH/6CZaKCiRF0c0VqRTp5WXiD4eI3f+Z8K1b+foEcwOqz0f1wE+o3vcRGQGZNKmpKZITEyhOZ7ZhTTx6hLaygurzoXi92Rs0OTVN6KuTJCcm8k5UF5XXruETAtfICPZAAElVszGlrg6fpuGNxZFra/+ZkqpiDwSoHR7BJwSOy5fNJMzv+sSTJ5Sx+dTuv3CBPcePkxwbIzU1RSYS4Y9LlwAostnYc+wYiteL6m+guKVl88gKQWpmxkwi/x54r6uLsq7vUOvceXOzEILU/Dyvu7v56/r1nRkAkGQZxefD1tyM2tCA7HJhKSt7J0d7+Yr0yjLJsTFig4OkJib0GpD/Hf4GxDGEWGLpYbIAAAAASUVORK5CYII=')";
 //"url(https://t1.gstatic.com/images?q=tbn:ANd9GcR6FCUMW5bPn8C4PbKak2BJQQsmC-K9-mbYBeFZm1ZM2w2GRy40Ew)";
-    container.style.backgroundSize = "24px 24px";
-    container.style.width = '24px';
-    container.style.height = '24px';
+    container.style.backgroundSize = "28px 28px";
+    container.style.width = '28px';
+    container.style.height = '28px';
     container.title = "Select S2 Cells representation";
 
     container.onclick = function(){
