@@ -1,13 +1,13 @@
 // ==UserScript==
-// @id             iitc-plugin-s2-opr
-// @name           IITC plugin: Portal Submission helper
-// @author         SpawW (based on Vib S17 plugin)
+// @id             iitc-plugin-s2-opr@spaww
+// @name           IITC plugin: S2-OPR Cells for OPR submission plan
+// @author         spaww
 // @category       Layer
-// @version        0.0.1
-// @namespace      https://github.com/vibrunazo/l17cells
-// @updateURL      https://raw.githubusercontent.com/SpawW/s2-opr/master/s2-opr.meta.js
-// @downloadURL    https://raw.githubusercontent.com/SpawW/s2-opr/master/s2-opr.js
-// @description    IITC: Shows cells on the map for help submission planing
+// @version        0.2.0
+// @namespace      https://github.com/spaww/s2-opr
+// @updateURL      https://raw.githubusercontent.com/spaww/s2-opr/master/s2-cells.meta.js
+// @downloadURL    https://github.com/spaww/s2-opr/raw/master/s2-cells.user.js
+// @description    IITC: Shows configurable S2 level cells on the map
 // @include        https://*.ingress.com/intel*
 // @include        http://*.ingress.com/intel*
 // @match          https://*.ingress.com/intel*
