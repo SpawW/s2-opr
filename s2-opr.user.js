@@ -5,8 +5,8 @@
 // @category       Layer
 // @version        0.2.0
 // @namespace      https://github.com/SpawW/s2-opr
-// @updateURL      https://raw.githubusercontent.com/SpawW/s2-opr/master/s2-cells.meta.js
-// @downloadURL    https://github.com/SpawW/s2-opr/raw/master/s2-cells.user.js
+// @updateURL      https://raw.githubusercontent.com/SpawW/s2-opr/master/s2-opr.meta.js
+// @downloadURL    https://raw.githubusercontent.com/SpawW/s2-opr/master/s2-opr.user.js
 // @description    IITC: Shows configurable S2 level cells on the map
 // @include        https://*.ingress.com/intel*
 // @include        http://*.ingress.com/intel*
