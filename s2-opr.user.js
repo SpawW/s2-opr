@@ -3,7 +3,7 @@
 // @name           IITC plugin: S2-OPR Cells for OPR submission plan
 // @author         spaww
 // @category       Layer
-// @version        0.2.2
+// @version        0.2.5
 // @namespace      https://github.com/SpawW/s2-opr
 // @updateURL      https://raw.githubusercontent.com/SpawW/s2-opr/master/s2-opr.meta.js
 // @downloadURL    https://raw.githubusercontent.com/SpawW/s2-opr/master/s2-opr.user.js
@@ -30,7 +30,7 @@ function wrapper(plugin_info)
   //PLUGIN AUTHORS: writing a plugin outside of the IITC build environment? if so, delete these lines!!
   //(leaving them in place might break the 'About IITC' page or break update checks)
   plugin_info.buildName = 'opr-s2-cells';
-  plugin_info.dateTimeVersion = '20180803.150300';
+  plugin_info.dateTimeVersion = '20180809.214600';
   plugin_info.pluginId = 'opr-s2-cells';
   //END PLUGIN AUTHORS NOTE
 
@@ -103,13 +103,13 @@ function wrapper(plugin_info)
               return;
           },
           'Ingress': function() {
-              window.plugin.showcells.storage = { lightCell: 19, darkCell: 17, lightColor: '#F5FFFA', darkColor: '#3316DD'};
+              window.plugin.showcells.storage = { lightCell: 18, darkCell: 17, lightColor: '#F5FFFA', darkColor: '#3316DD'};
               window.plugin.showcells.saveStorage();
               window.plugin.showcells.update();
               return;
           },
           'Region': function() {
-              window.plugin.showcells.storage = { lightCell: 2, darkCell: 2, lightColor: '#F5FFFA', darkColor: '#F5FFFA'};
+              window.plugin.showcells.storage = { lightCell: 7, darkCell: 7, lightColor: '#F5FFFA', darkColor: '#F5FFFA'};
               window.plugin.showcells.saveStorage();
               window.plugin.showcells.update();
               return;
